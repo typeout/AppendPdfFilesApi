@@ -1,6 +1,6 @@
 namespace AppendPdfFiles.API.Tests.Unit;
 
-public class UnitTest1
+public class DeleteMe
 {
     [Fact]
     public void ShouldBeTrue()
