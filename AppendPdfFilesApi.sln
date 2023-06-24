@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppendPdfFiles.API", "Appen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppendPdfFiles.API.Tests.Unit", "AppendPdfFiles.API.Tests.Unit\AppendPdfFiles.API.Tests.Unit.csproj", "{8E4FB101-584D-4840-972C-CFDDA7C62601}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppendPdfFiles.API.Tests.Acceptance", "AppendPdfFiles.API.Tests.Acceptance\AppendPdfFiles.API.Tests.Acceptance.csproj", "{D6A67879-9B88-4304-80B3-18F7FB02EA48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{8E4FB101-584D-4840-972C-CFDDA7C62601}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E4FB101-584D-4840-972C-CFDDA7C62601}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E4FB101-584D-4840-972C-CFDDA7C62601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A67879-9B88-4304-80B3-18F7FB02EA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A67879-9B88-4304-80B3-18F7FB02EA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A67879-9B88-4304-80B3-18F7FB02EA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A67879-9B88-4304-80B3-18F7FB02EA48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
