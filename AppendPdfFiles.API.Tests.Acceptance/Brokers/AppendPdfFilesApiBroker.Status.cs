@@ -1,4 +1,4 @@
-namespace AppendPdfFiles.API.Tests.Acceptance;
+namespace AppendPdfFiles.API.Tests.Acceptance.Brokers;
 
 public partial class AppendPdfFilesApiBroker
 {

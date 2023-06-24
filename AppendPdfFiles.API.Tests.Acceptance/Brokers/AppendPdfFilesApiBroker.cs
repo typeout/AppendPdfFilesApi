@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc.Testing;
 using RESTFulSense.Clients;
 
-namespace AppendPdfFiles.API.Tests.Acceptance;
+namespace AppendPdfFiles.API.Tests.Acceptance.Brokers;
 
 public partial class AppendPdfFilesApiBroker
 {
