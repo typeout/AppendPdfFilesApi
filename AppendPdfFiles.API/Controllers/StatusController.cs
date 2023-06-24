@@ -4,7 +4,7 @@ namespace FBR.API.Controllers
 {
     [ApiController]
     [ApiExplorerSettings(IgnoreApi = false)]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class StatusController : ControllerBase
     {
         ///<summary>Test API with OK request</summary>
