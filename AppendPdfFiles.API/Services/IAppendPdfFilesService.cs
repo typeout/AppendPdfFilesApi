@@ -1,6 +1,6 @@
 namespace AppendPdfFiles.API.Services;
 
-interface IAppendPdfFilesService
+public interface IAppendPdfFilesService
 {
     Task<IFormFile> AppendPdfFilesAsync(IFormFileCollection pdfFiles);
 }
