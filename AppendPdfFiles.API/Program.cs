@@ -1,5 +1,6 @@
 using System.Reflection;
 using AppendPdfFiles.API.Brokers;
+using AppendPdfFiles.API.Services;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IPdfBroker, PdfBroker>();
+builder.Services.AddScoped<IAppendPdfFilesService, AppendPdfFilesService>();
 
 AddSwaggerGen(builder);
 
